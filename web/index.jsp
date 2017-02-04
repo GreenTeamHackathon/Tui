@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-	<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+    <!DOCTYPE html>
+	<!--  ><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> <-->
 <html>
 <head>
 	
@@ -8,7 +9,7 @@
 	<title>Search Hackathon</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<script src="../js/tabLayout.js"></script>
+	<script src="js/tabLayout.js"></script>
 </head>
 <body>
 	<div id="container">
@@ -17,7 +18,7 @@
   			<li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Tags')">Tags</a></li>
   			<li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Preferences')">Preferences</a></li>
 		</ul>
-	
+		
 		<div id="Image" class="tabcontent">
  	 		<h3>Image</h3>
  	 		<p>search content</p>
